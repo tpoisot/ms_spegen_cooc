@@ -44,19 +44,21 @@ functional diversity [@devictor_defining_2010] or promoting community stability
 [@hassell_generalist_1986], there is a need to investigate the maintenance of
 species with different specificities.
 
-In a previous paper [@poisot_conceptual_2011], we suggested that the
+In a previous paper [@poisot_conceptual_2011], we argued that the
 mechanisms shaping the evolution of specificity were similar for both
 antagonistic and mutualistic interactions, which implies that relationships
 between specificity, the co- occurrence of specialists and generalists, and
-other metrics of community structure should be the same across different
+other metrics of community structure should be similar across different
 types of ecological interaction, despite each category of network having
 different structural properties. One central result of the analyses presented
 in the present contribution is that empirical data show consistently more
 variation in specificities of all species on the upper trophic level
 (hereafter called “strategy diversity”) than predicted by two
 contrasting null models. This suggests that organisms with very different
-levels of specificity do co- occur in most natural systems. Importantly,
-we reveal the existence of a continuum from networks of mostly-specialized
+levels of specificity can co-occur in most natural systems.
+
+In this paper, we use a large dataset of species interaction networks spanning three contrasted types of ecological interactions (herbivory, parasitism, and mutualism), to characterize to what extent species with different  specificities can co- occur within the same community. Importantly,
+we find a continuum from networks of mostly-specialized
 to mostly-generalized species, with the potential for specialist/generalist
 co-occurrence being greater at intermediate points. Strategy diversity is
 contingent upon network properties, including nestedness (a measure of niche
