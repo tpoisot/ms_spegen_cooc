@@ -1,1 +1,1 @@
-A specialist--generalist continuum in bipartite ecological networks
+A continuum of specialists and generalist in empirical communities
