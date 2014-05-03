@@ -26,7 +26,7 @@ Each bipartite network is represented as its adjacency matrix $\mathbf{M}$
 with $T$ rows (for the upper level, *i.e.* ectoparasites, herbivores,
 and pollinators) and $L$ columns (for the lower level, *i.e.* animal hosts
 and plants being eaten or pollinated). In each network, $\mathbf{M}_{ij}$
-represents the existence of an interaction between species $i$ and the
+represents the existence of an interaction between species $i$ and
 species $j$ [@dunne_network_2006]. For each network, we calculate size
 ($Z=L\times T$), and connectance ($\mathrm{Co}$, the proportion of established
 interactions). We focus our analyses on the upper trophic level, since we
@@ -34,7 +34,7 @@ have more knowledge of specialization mechanisms for these organisms [*e.g.*
 @futuyma_evolution_1988]. Nestedness is calculated using the NODF (Nestedness
 based on Overlap and Decreasing Fill) measure [@almeida-neto_consistent_2008]
 , which is insensitive to network shape (asymmetry in the number of species
-at each of the two trophic levels) and size. Modularity was estimated using
+at each of the two trophic levels) and size. Modularity is estimated using
 the LP-BRIM method [@liu_community_2010], which both increases modularity
 detection compared to the adaptive BRIM method, and is less computationally
 intensive [@barber_detecting_2009]. For each network, we retained the highest
@@ -46,12 +46,10 @@ null models, each based on the impact of different aspects of network
 structure (connectance, and degree distribution in the whole network). For
 each null model, we filled a network through a Bernoulli process, in
 which the probability of each pairwise species interaction occurring
-($\mathrm{P}\sb{ij}$) is determined in one of the following ways. The first
-(connectance based) null model [*e.g.* @fortuna_habitat_2006] assigns the
+($\mathrm{P}\sb{ij}$) is determined in one of the following ways. Null model I [*e.g.* @fortuna_habitat_2006] is connectance based and assigns the
 same probability to each interaction, $\mathrm{P}\sb{ij} = Co$. Compared
-to the empirical network on which they are based, simulated networks have
-the same connectance, but a potentially different degree distribution. The
-second null model [@bascompte_nested_2003] uses information about species
+to the empirical network on which they are based, simulated networks cn have
+the same connectance, but a potentially different degree distribution. Null model II [@bascompte_nested_2003] uses information about species
 degree to calculate the probability that a particular interaction will
 occur. This probability is $\mathrm{P}\sb{ij} = (T\times G\sb{i}+L\times
 V\sb{j})/(2\times Z)$, where $G\sb{i}$ and $V\sb{j}$ are, respectively, the
@@ -72,7 +70,7 @@ which a focal species interacts [@poisot_comparative_2012 and references
 therein], using a ranged version of Schoener's generality. For each species
 $i$ of the upper level (*e.g.* parasites), its specificity is given by
 
-$$\mathbf{s}_{i} = \frac{L-l_i}{L-1}$$
+$\mathbf{s}_{i} = \frac{L-l_i}{L-1}$
 
 where $L$ is the number of lower level species (*e.g.* hosts) found in
 the network, and $l_i$ is the number of interaction partners of species
@@ -87,7 +85,7 @@ generalists (*i.e.* “strategy diversity”). First, “specificity range”
 or $R$, is simply the difference between the specificity of the most and
 least specialized organisms, such that
 
-$$R = \mathrm{max}(\mathbf{s})-\mathrm{min}(\mathbf{s})$$
+$R = \mathrm{max}(\mathbf{s})-\mathrm{min}(\mathbf{s})$
 
 $R$ is maximized when at least one completely specialized species $k$
 ($\mathbf{s}_{k} = 1$) is found in the same network as one (or more)
@@ -105,19 +103,19 @@ calculate the self-information [@shannon_mathematical_1948] of $u$ as $I(u)
 = -\mathrm{ln}(u)$, and based on these two sets of values, we calculate the
 Shannon’s entropy of the distribution of specificity values as
 
-$$H = \sum_{u\in U}\left[p(u)I(u)\right]$$
+$H = \sum_{u\in U}\left[p(u)I(u)\right]$
 
 If $U$ takes on $N$ possible values, then the theoretical maximum of $H$
 (attained when all values of $\mathbf{s}'$ are unique, *i.e.* no two species
 share the same degree of specificity) is
 
-$$H_{\mathrm{max}}= \mathrm{ln}(N)$$
+$H_{\mathrm{max}}= \mathrm{ln}(N)$
 
 To eliminate any scaling effect that might occur due to different dataset
 sizes, we take the exponentials of these values [@bersier_quantitative_2002],
 such that the standardized value of $E$ is
 
-$$E = e^{H-H_{\mathrm{max}}}$$
+$E = e^{H-H_{\mathrm{max}}}$
 
 $E = 1$ when no two organisms have the same level of specificity, and $E = 0$
 when all values of $\mathbf{s}'$ are equal. Note that rounding to the second
@@ -132,7 +130,7 @@ little to no impact in larger networks [@berlow_interaction_2004].
 Finally, we present a simple summary statistic that we call “strategy
 diversity” ($D$),
 
-$$D = \frac{1}{2}(E+R)$$
+$D = \frac{1}{2}(E+R)$
 
 which given that both $E$ and $R$ take values in $[0,1]$, will also return
 values in this range. $D = 1$ indicates that the specificity values found
