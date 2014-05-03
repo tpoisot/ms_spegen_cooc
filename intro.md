@@ -37,15 +37,12 @@ ranging from highly specialized to generalists [@otto_allometric_2007]. While
 much is known about the factors (*e.g.* biotic [@thrall_coevolution_2007],
 abiotic [@ravigne_live_2009; @forister_revisiting_2012], developmental and
 physiological [@ferry-graham_using_2002]) driving the specialization of single
-species, less is known about the spectrum of specificities that can co-occur
+species, less is known about the spectrum of specificities and niche-overlaps that can co-occur
 in large ecological networks, and reasons for different spectra. As the
 co-occurrence between specialized and generalized species is key to maintaining
 functional diversity [@devictor_defining_2010] or promoting community stability
 [@hassell_generalist_1986], there is a need to investigate the maintenance of
-species with different specificities. In this paper, we use a large dataset
-of species interaction networks spanning three contrasted types of ecological
-interactions (herbivory, parasitism, and mutualism), to characterize to what
-extent species with different specificities can co-occur within the same community.
+species with different specificities.
 
 In a previous paper [@poisot_conceptual_2011], we suggested that the
 mechanisms shaping the evolution of specificity were similar for both
