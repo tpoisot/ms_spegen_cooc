@@ -1,1 +1,1 @@
-A continuum of specialists and generalist in empirical communities
+A continuum of specialists and generalists in empirical communities
