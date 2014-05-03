@@ -16,8 +16,7 @@ based on model analysis or controlled experiments have two features impeding
 their generalization to large communities. First, the number of interacting
 organisms is often kept low, either to facilitate model analysis or because of
 experimental constraints. In practice, this means that studies investigating
-the co-occurrence of species with contrasted specificities assume pure
-specialism *vs.* pure specialism, whereas natural systems exhibit more of
+the co-occurrence of species with contrasted specificities assume no intermediate situations between the endpoints of specialism and generalism, whereas natural systems exhibit more of
 a continuum [@forister_revisiting_2012; @poisot_structure_2013]. Second,
 it is unclear to what extent results can be scaled up to more realistic
 communities. @stouffer_understanding_2009 showed that because adding species
