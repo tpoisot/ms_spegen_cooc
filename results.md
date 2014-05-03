@@ -6,10 +6,10 @@ network, we measure whether its structural properties (strategy diversity,
 nestedness, modularity) are higher or lower than expected by chance using
 the two null models. Our results are reported in Table 1. Both null models
 gave consistent results regarding whether the empirical networks represented a
-deviation from the random expectations There is also a strong tendency towards
-higher than expected nestedness in all types of interactions. Host-parasite
+deviation from the random expectations. Host-parasite
 networks are on average less modular than expected, herbivory networks are
-more, and there is no clear trend in pollination networks.
+more, and there is no clear trend in pollination networks. There is also a strong tendency towards
+higher than expected nestedness in all types of interactions. 
 
 Figure 2 presents the distributions of specificity, connectance, nestedness,
 and modularity in networks that are either more or less functionally
