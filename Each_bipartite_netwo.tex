@@ -1,0 +1,18 @@
+Each bipartite network is represented as its adjacency matrix $\mathbf{M}$
+with $T$ rows (for the upper level, *i.e.* ectoparasites, herbivores,
+and pollinators) and $L$ columns (for the lower level, *i.e.* animal hosts
+and plants being eaten or pollinated). In each network, $\mathbf{M}_{ij}$
+represents the existence of an interaction between species $i$ and the
+species $j$ [@dunne_network_2006]. For each network, we calculate size
+($Z=L\times T$), and connectance ($\mathrm{Co}$, the proportion of established
+interactions). We focus our analyses on the upper trophic level, since we
+have more knowledge of specialization mechanisms for these organisms [*e.g.*
+@futuyma_evolution_1988]. Nestedness is calculated using the NODF (Nestedness
+based on Overlap and Decreasing Fill) measure [@almeida-neto_consistent_2008]
+, which is insensitive to network shape (asymmetry in the number of species
+at each of the two trophic levels) and size. Modularity was estimated using
+the LP-BRIM method [@liu_community_2010], which both increases modularity
+detection compared to the adaptive BRIM method, and is less computationally
+intensive [@barber_detecting_2009]. For each network, we retained the highest
+modularity [$Q_{bip}$ *sensu* @barber_modularity_2007] observed in a total
+of 1000 replicate runs.
