@@ -21,12 +21,12 @@ particular emphasis on the discussion of parasitism networks.
 
 ## Network analyses
 
-Each bipartite network is represented as its adjacency matrix $\mathbf{M}$
+Each bipartite network is represented by its adjacency matrix $\mathbf{M}$
 with $T$ rows (for the upper level, *i.e.* ectoparasites, herbivores,
 and pollinators) and $L$ columns (for the lower level, *i.e.* animal hosts
 and plants being eaten or pollinated). In each network, $\mathbf{M}_{ij}$
 represents the existence of an interaction between species $i$ and
-species $j$ [@dunne_network_2006]. For each network, we calculate size
+species $j$ [@dunne_network_2006]. For each network, we calculate its size
 ($Z=L\times T$), and connectance ($\mathrm{Co}$, the proportion of established
 interactions). We focus our analyses on the upper trophic level, since we
 have more knowledge of specialization mechanisms for these organisms [*e.g.*
@@ -52,8 +52,8 @@ the same connectance, but a potentially different degree distribution. Null mode
 degree to calculate the probability that a particular interaction will
 occur. This probability is $\mathrm{P}\sb{ij} = (T\times G\sb{i}+L\times
 V\sb{j})/(2\times Z)$, where $G\sb{i}$ and $V\sb{j}$ are, respectively, the
-generality of upper trophic level species $i$, and the vulnerability of lower
-trophic level species $j$ [@schoener_food_1989]. Simply put, the probability
+generality (number of interactions) of upper level species $i$, and the vulnerability (number of interactions) of lower
+level species $j$ [@schoener_food_1989]. Simply put, the probability
 of the interaction occurring is the mean of the degrees (ranged in 0--1) of the
 two species involved. Note that the first null model is nested into the second.
 
@@ -92,10 +92,7 @@ completely generalized species $l$ ($\mathbf{s}_{l} = 0$).
 
 A second measure of the distribution of specificities within a network
 is its evenness, denoted $E$. We define $\mathbf{s}'$ as all the unique
-values of $\mathbf{s}$, rounded to the second decimal place. $U$ is all the
-possible values that $\mathbf{s}'$ can take, and $u$ each particular value
-of $\mathbf{s}'$. For each $u$, we calculate $p(u)$ as the probability
-of any randomly chosen element of $U$ having the value $u$. For example,
+values of $\mathbf{s}$, rounded to the second decimal place. We define $U$ as the ordered set of $\mathbf{s}'$ values and $u$ as each of the elements of this set. Thus $p(u)$ is the probability associated to a given element of $U$. For example,
 if $\mathbf{s}' = [0.1, 1, 1, 0, 0.4]$, then $U = [0, 0.1, 0.4, 1]$,
 $p(u = 1) = 2 / 5$, and $p(u = 0) = 1 / 5$. With this information, we
 calculate the self-information [@shannon_mathematical_1948] of $u$ as $I(u)
