@@ -13,7 +13,7 @@ higher than expected nestedness in all types of interactions.
 
 Figure 2 presents the distributions of specificity, connectance, nestedness,
 and modularity in networks that are either more or less functionally
-diverse than expected under the assumptions of null model II (using the outcomes of model I yields the same qualitative results). Regardless of
+diverse than expected under the assumptions of null model II (using the outcomes of model I yields the same qualitative results; see Table 1). Regardless of
 the baseline differences between types of network for each of the metrics
 considered, higher diversity responded in a consistent way to variation in
 the other metrics. Networks with higher average specificity tended to have
