@@ -26,7 +26,7 @@ than simple modules (*i.e.* those typically used in models or experiments),
 begging for an analysis of co-occurrence in empirical communities.
 
 Network theory offers powerful tools to characterize the complexity of
-ecological communities [@proulx_network_2005]. In a species interaction
+ecological communities [@proulx_network_2005] and the degree of specialisation of the species within them [@poisot_mee]. In a species interaction
 network, each species is a node, and each interaction is an edge, connecting
 a pair of nodes. From a network perspective, measuring the specificity
 of a species can be performed by counting the number of links it has with
@@ -39,10 +39,9 @@ abiotic [@ravigne_live_2009; @forister_revisiting_2012], developmental and
 physiological [@ferry-graham_using_2002]) driving the specialization of single
 species, less is known about the spectrum of specificities and niche-overlaps that can co-occur
 in large ecological networks, and reasons for different spectra. As the
-co-occurrence between specialized and generalized species is key to maintaining
-functional diversity [@devictor_defining_2010] or promoting community stability
-[@hassell_generalist_1986], there is a need to investigate the maintenance of
-species with different specificities.
+co-occurrence and interactions between specialized and generalized species is key to maintaining
+functional diversity [@devictor_defining_2010], promoting community stability
+[@hassell_generalist_1986], and esnuring network persistence [@bascompte_2003], there is a need to investigate the exact extent of this co-occurrence.
 
 In a previous paper [@poisot_conceptual_2011], we argued that the
 mechanisms shaping the evolution of specificity were similar for both
