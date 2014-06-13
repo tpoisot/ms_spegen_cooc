@@ -13,8 +13,7 @@ interactions are the 29 “plant–pollinators” networks deposited in the
 NCEAS InteractionWeb database (`http://www.nceas.ucsb.edu/interactionweb/`) as
 of May 2012. These data are insect–plant contacts, aggregated from different
 sources, spanning a period of over 30 years. Species with no interaction
-were removed from the original datasets. Some networks had a connectance
-that was too low to allow for efficient or meaningful randomisation
+were removed from the original datasets. Some networks had less than 1000 possible randomizations, which did not allow for efficient or meaningful randomisation
 [@poisot_when_2013], and as such were discarded from the analysis. The
 final dataset has 115 parasitism networks, 6 herbivory networks, and 12
 pollination networks. Because the sample size is unbalanced, we put
