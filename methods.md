@@ -107,7 +107,7 @@ share the same degree of specificity) is
 
 $H_{\mathrm{max}}= \mathrm{ln}(N)$
 
-To eliminate any scaling effect that might occur due to different dataset
+To eliminate any scaling effect that might occur due to different network
 sizes, we take the exponentials of these values [@bersier_quantitative_2002],
 such that the standardized value of $E$ is
 
