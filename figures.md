@@ -16,3 +16,4 @@ metrics. It is clear that regardless of the interaction type, diversity of
 strategies responds in a similar way to other network metrics. Points are
 colored as in Figure 2. Triangles are host-parasite systems, squares are
 plants-herbivores, and circles are plants-pollinators.
+
