@@ -7,26 +7,27 @@
 **Timothée Poisot** -- `t.poisot@gmail.com`   
 (1) School of Biological Sciences, University of Canterbury, Private Bag 4800, Christchurch 8140, New Zealand   
 (2) Département de Biologie, Université du Québec à Rimouski, 300 Allée des Ursulines, Rimouski G5L 3A1 QC, Canada   
-(3) Québec Centre for Biodiversity Sciences, Montréal QC, Canada   
+(3) Québec Centre for Biodiversity Sciences, Montréal QC, Canada
 
 **Sonia Kéfi** -- `skefi@um2.fr`   
 (4) Institut des Sciences de l'Évolution, UMR CNRS 5554, Université Montpellier 2, Place Eugène Bataillon, CC065, F-34095, Montpellier Cedex 05, France
 
 **Serge Morand** -- `serge.morand@univ-montp2.fr`   
-(4) Institut des Sciences de l'Évolution, UMR CNRS 5554, Université Montpellier 2, Place Eugène Bataillon, CC065, F-34095, Montpellier Cedex 05, France   
-(...)     
+(6) CNRS-CIRAD AGIRs, Centre d'Infectiologie Christophe Mérieux du Laos, Vientiane, Lao PDR
 
 **Michal Stanko** -- `stankom@saske.sk`   
-(5) Institute of Zoology and Institute of Parasitology, Slovak Academy of Sciences, Lofflerova 10, 04001 Kosice, Slovakia
+(7) Institute of Zoology and Institute of Parasitology, Slovak Academy of Sciences, Lofflerova 10, 04001 Kosice, Slovakia
 
-**Pablo Marquet** -- `serge.morand@univ-montp2.fr`   
-(6) Center for Advanced Studies in Ecology and Biodiversity and Departamento de Ecologià, Pontificia Universidad Catòlica de Chile, Santiago, Chile   
-(7) Instituto de Ecologià y Biodiversidad, Casilla 653, Santiago, Chile   
-(8) Santa Fe Institute, Santa Fe, NM, USA
+**Pablo Marquet** -- `pmarquet@bio.puc.cl`    
+(8) Departamento de Ecologia,  Facultad de Ciencias Biologicas, Pontificia Universidad Catolica de Chile, Santiago, Chile   
+(9) Instituto de Ecologia y Biodiversidad, Casilla 653, Santiago, Chile   
+(10) Santa Fe Institute, 1399 Hyde Park Road Santa Fe, New Mexico 87501 USA   
+(11) Laboratorio Internacional en Cambio Global (LINCGlobal) Facultad de Ciencias Biologicas, Pontificia Universidad Catolica de Chile, Santiago, Chile
 
-**Michael Hochberg** -- `serge.morand@univ-montp2.fr`   
+**Michael Hochberg** -- `mhochber@um2.fr`   
 (4) Institut des Sciences de l'Évolution, UMR CNRS 5554, Université Montpellier 2, Place Eugène Bataillon, CC065, F-34095, Montpellier Cedex 05, France   
-(8) Santa Fe Institute, Santa Fe, NM, USA   
+(10) Santa Fe Institute, 1399 Hyde Park Road Santa Fe, New Mexico 87501 USA   
+(12) Wissenschaftskolleg zu Berlin, 14193 Berlin, Germany
 
 \clearpage
 
@@ -53,21 +54,22 @@ The functional diversity of ecological communities emerges through the
 simultaneous occurrence of species with contrasted resource use [@poi11a],
 habitat selection [@dev10], and interactions [@bas03;@wei12]. Both empirical
 and theoretical studies have shown how different degrees of niche partitioning
-can promote functional diversity [@dia01; @pet02; @ack07]. However, the
-co-occurrence of specialist and generalist species has received considerably
-less attention. The majority of studies seeking to understand the conditions
-for co-occurrence between populations of specialists and generalists in
-both biotic (*e.g.* predator–prey, host–parasite) and abiotic (*e.g.*
-habitat choice) interactions have focused on small communities [@wil94;
-@hoc90; @dem95; @ega04; @abr06; @rav09]. Approaches based on model analysis or
-controlled experiments have two features impeding their generalization to large
-communities. First, the number of interacting organisms is often kept low,
-either to facilitate model analysis or because of experimental constraints. In
-practice, this means that studies investigating the co-occurrence of species
-with contrasted specificities assume no intermediate situations between
-the endpoints of specialism and generalism, whereas natural systems exhibit
-more of a continuum [@for12; @poi13b]. Second, it is unclear to what extent
-results can be scaled up to more realistic communities. Stouffer and colleagues
+can promote functional diversity [@dia01; @pet02; @ack07] and species
+persistence [@bas09c]. However, the co-occurrence of specialist and generalist
+species has received considerably less attention. The majority of studies
+seeking to understand the conditions for co-occurrence between populations
+of specialists and generalists in both biotic (*e.g.* predator–prey,
+host–parasite) and abiotic (*e.g.* habitat choice) interactions have
+focused on small communities [@wil94; @hoc90; @dem95; @ega04; @abr06;
+@rav09]. Approaches based on model analysis or controlled experiments have
+two features impeding their generalization to large communities. First, the
+number of interacting organisms is often kept low, either to facilitate model
+analysis or because of experimental constraints. In practice, this means
+that studies investigating the co-occurrence of species with contrasted
+specificities assume no intermediate situations between the endpoints
+of specialism and generalism, whereas natural systems exhibit more of a
+continuum [@for12; @poi13b]. Second, it is unclear to what extent results
+can be scaled up to more realistic communities. Stouffer and colleagues
 [@sto09] showed that because adding species and interactions increases the
 potential for complex population dynamical feedbacks, complete, realistic
 networks tend to exhibit different behaviors than simple modules (*i.e.*
@@ -75,9 +77,9 @@ those typically used in models or experiments), begging for an analysis of
 co-occurrence in empirical communities.
 
 Network theory offers powerful tools to characterize the complexity of
-ecological communities [@pro05] and the degree of specialisation of the
-species within them [@poi12c]. In a species interaction network, each
-species is a node, and each interaction is an edge, connecting a pair of
+ecological communities [@pro05] and the associated degree of species
+specialisation within them [@poi12c]. In a species interaction network,
+each species is a node, and each interaction is an edge, connecting a pair of
 nodes. From a network perspective, measuring the specificity of a species can
 be performed by counting the number of links it has with other species, or
 to study the distribution of the strengths of such links [@poi12c]. Previous
@@ -91,7 +93,7 @@ in large ecological networks, and reasons for different spectra. As the
 co-occurrence and interactions between specialized and generalized species
 is key to maintaining functional diversity [@dev10], promoting community
 stability [@has86], and ensuring network persistence [@bas03], there is a
-need to investigate the exact extent of this co-occurrence.
+need to investigate the extent and properties of this co-occurrence.
 
 In a previous paper [@poi11a], we argued that the mechanisms shaping the
 evolution of specificity were similar for both antagonistic and mutualistic
@@ -99,11 +101,11 @@ interactions, which implies that relationships between specificity, the co-
 occurrence of specialists and generalists, and other metrics of community
 structure should be similar across different types of ecological interaction,
 despite each category of network having different structural properties. One
-central result of the analyses presented in the present contribution is
-that empirical data show consistently more variation in specificities of all
-species on the upper trophic level (hereafter called “strategy diversity”)
-than predicted by two contrasting null models. This suggests that organisms
-with very different levels of specificity can co-occur in most natural systems.
+central result presented in the present contribution is that empirical data
+show consistently more variation in specificities of all species on the upper
+trophic level (hereafter called “strategy diversity”) than predicted by
+two contrasting null models. This suggests that organisms with very different
+levels of specificity can co-occur in most natural systems.
 
 In this paper, we use a large dataset of species interaction networks spanning
 three contrasted types of ecological interactions (herbivory, parasitism,
@@ -146,7 +148,7 @@ parasitism networks.
 Each bipartite network is represented by its adjacency matrix $\mathbf{M}$
 with $T$ rows (for the upper level, *i.e.* ectoparasites, herbivores,
 and pollinators) and $L$ columns (for the lower level, *i.e.* animal hosts
-and plants being eaten or pollinated). In each network, $\mathbf{M}_{ij}$
+and plants being consumed or pollinated). In each network, $\mathbf{M}_{ij}$
 represents the existence of an interaction between species $i$ and species
 $j$ [@dun06]. For each network, we calculate its size ($Z=L\times T$), and
 connectance ($\mathrm{Co}$, the proportion of established interactions). We
@@ -272,16 +274,16 @@ generalized, and thus has no strategy diversity.
 
 # Results
 
-All types of networks tend to have more strategy diversity and to be composed
-of more specialized species than expected by chance. For each empirical
-network, we measure whether its structural properties (strategy diversity,
-nestedness, modularity) are higher or lower than expected by chance using
-the two null models. Our results are reported in Table 1. Both null models
-gave consistent results regarding whether the empirical networks represented
-a deviation from the random expectations. Host-parasite networks are on
-average less modular than expected, herbivory networks are more, and there
-is no clear trend in pollination networks. There is a marked tendency towards
-higher than expected nestedness in all types of interactions.
+All types of network tend to have more strategy diversity and to be composed
+of more specialized species than expected by chance (Table 1). For each
+empirical network, we measure whether its structural properties (strategy
+diversity, nestedness, modularity) are higher or lower than expected by
+chance using the two null models. Our results are reported in Table 1. Both
+null models gave consistent results regarding whether the empirical networks
+represented a deviation from the random expectations. Host-parasite networks
+are on average less modular than expected, herbivory networks are more, and
+there is no clear trend in pollination networks. There is a marked tendency
+towards higher than expected nestedness in all types of interactions.
 
 Figure 2 presents the distributions of specificity, connectance, nestedness,
 and modularity in networks that are either more or less functionally diverse
@@ -291,31 +293,30 @@ the baseline differences between types of network for each of the metrics
 considered, higher diversity responded in a consistent way to variation in
 the other metrics. Networks with higher average specificity tended to have
 lower average strategy diversity, higher connectance, higher nestedness, and
-lower modularity (Table 2). Of all these, there are significant interactions
-between all of the variables and the network having higher strategy diversity
-than expected by chance, with the exception of modularity (Table 3). These
-four metrics alone account for 96% of the variance of strategy diversity, and
-63% of the variance in the deviation of this same metric. All metrics except
-modularity had a significant impact on the strategy diversity. Interestingly,
-connectance was the best predictor of strategy diversity, whereas nestedness
-was the best predictor of the how much strategy diversity in the empirical
+lower modularity (Table 2). There are significant interactions between all of
+the variables and the network having higher strategy diversity than expected
+by chance, with the exception of modularity (Table 3). These four metrics
+alone account for 96% of the variance of strategy diversity, and 63% of the
+variance in the deviation of this same metric. All metrics except modularity
+had a significant impact on strategy diversity. Interestingly, connectance
+was the best predictor of strategy diversity, whereas nestedness was the
+best predictor of the extent to which strategy diversity in the empirical
 networks deviates from random expectations. This is because by definition,
 null model testing removes most of the effects of connectance. The type of
 ecological interaction was not significant; detecting possible significance
 would have probably required a larger sample size for non-parasitic networks.
 
-We finally look at the relationships between network metrics and strategy
+We finally examine the relationships between network metrics and strategy
 diversity (Fig. 3). Strategy diversity increases with connectance (it is
 expected to be 0 for a connectance of 1, but no network in our dataset is
 densely connected), decreases with average specificity (as before, strategy
-diversity is 0 if the average specificity is 0), increases linearly with
-nestedness, and decreases with modularity. An interesting result in this
-analysis is that the trend is the same for all three types of interaction
-considered, with the exception that herbivory and pollination networks
-tended to occupy the "low connectance" end of the gradient; they behave in
-the same way as do parasitism networks, reinforcing the idea that structural
-constraints such as that introduced by connectance may be driving emergent
-network properties.
+diversity is 0 if mean specificity is 0), increases linearly with nestedness,
+and decreases with modularity. An interesting result in this analysis is
+that the trend is the same for all three types of interaction considered,
+with the exception that herbivory and pollination networks tended to occupy
+the "low connectance" end of the gradient; they behave in the same way as do
+parasitism networks, reinforcing the idea that structural constraints such
+as that introduced by connectance may be driving emergent network properties.
 
 # Discussion
 
@@ -332,8 +333,8 @@ evaluated. By analyzing three bipartite network datasets covering a range of
 both ecological and structural situations, we show how co-occurrence can be
 linked with other topological network properties. This calls for a better
 integration of network methodology to the analysis of community structure,
-so as to evaluate the importance of emerging properties as drivers of the
-maintenance of species with different specificities.
+with the aim of understanding the co-occurrence of species with different
+specificities.
 
 Most emergent network properties could be predicted based on connectance
 alone [@poi14]. This included, notably, components of the degree distribution
@@ -369,18 +370,18 @@ in other types of interactions relying on narrower sets of mechanisms
 relative to connectance in some antagonistic interactions.
 
 In summary, although the ecological nature of an interaction (mutualistic
-or antagonistic) has an impact on network structure, strategy diversity
-that is higher than expected by chance seems to be a conserved property
-in bipartite ecological networks. The particular position occupied by a
-network along a continuum of, *e.g.* connectance or nestedness, can emerge
-because of the life-history traits of species establishing interactions,
-and we suggest that increased attention should be given to understanding
-how fine-scale mechanisms at the individual or population level drive the
-structure of community-level networks. It is nonetheless clear that despite
-theoretical predictions, generalists and specialists are often found together
-in nature. Understanding this gap between predictions and observations will
-be a major challenge, one that should be addressed by understanding the
-mechanisms of coexistence and co-occurrence in large multi-species communities.
+or antagonistic) has an impact on network structure, higher than expected
+strategy diversity appears to be a conserved property in bipartite ecological
+networks. The particular position occupied by a network along a continuum
+of, *e.g.* connectance or nestedness, can emerge because of the life-history
+traits of species establishing interactions, and we suggest that increased
+attention should be given to understanding how fine-scale mechanisms at
+the individual or population level drive the structure of community-level
+networks. It is nonetheless clear that despite theoretical predictions,
+generalists and specialists are often found together in nature. Understanding
+this gap between predictions and observations will be a major challenge
+that should be addressed by investigating the mechanisms of coexistence and
+co-occurrence in large multi-species communities.
 
 **Acknowledgments:** We thank E. Canard, V. Devictor, I. Gounand, S.
 Fellous & N. Mouquet for comments, and the Canadian Research Chair on
@@ -404,39 +405,39 @@ connectance and other metrics.
 **Figure 2.** Values of average specificity, nestedness, connectance,
 and modularity for networks with more (orange) or less (purple) strategy
 diversity than expected by chance. The results within a type of interaction
-are all highly consistent. For this analysis *only*, networks that were as
-functionally diverse as expected (as determined by the Null Models) were
-removed, as their diversity of strategies can be explained only by their
-connectance or degree distribution.
+are all highly consistent. For this analysis *only*, networks that were
+as functionally diverse as expected (as determined by the Null Models)
+were removed, since their diversity of strategies can be explained solely
+by either their connectance or degree distribution.
 
 **Figure 3.** Scatterplot of strategy diversity versus other network
-metrics. It is clear that regardless of the interaction type, diversity of
+metrics. Regardless of the interaction type, diversity of
 strategies responds in a similar way to other network metrics. Points are
 colored as in Figure 2. Triangles are host-parasite systems, squares are
 plants-herbivores, and circles are plants-pollinators.
 
 # Tables
 
-**Table 1.** Results of the null models analyses. For each network metric, and
-for each null model, we indicate the proportion of networks that had
-significantly larger or smaller values of this metric than expected by chance.
-A network has a significantly different value from the prediction when the
-empirical value falls outside of the 95% confidence interval for the value as
-mesured on the randomized networks [@flo11a].
+**Table 1.** Results of the null models analyses. For each network metric,
+and for each null model, we indicate the proportion of networks that had
+significantly larger or smaller values than expected by chance.  A network
+has a significantly different value from the prediction when the empirical
+value falls outside of the 95% confidence interval for the value as mesured
+on randomized networks [@flo11a].
 
 **Table 2.** Analysis of the results presented in Fig. 2. We used a two-sampled
 t-test to determine differences from chance expectations for metric networks
-with either, less, as much, or more strategy diversity. We observe that all
-metrics are different for parasitism networks, but not for other interaction
-types (although our failure to report an effect is most likely due to the
-small sample size, as attested by some extremely large confidence intervals).
+with either less, equal, or more strategy diversity. We observe that all
+metrics are different from chance expectatons for parasitism networks, but
+not for other interaction types (although our failure to report an effect
+is most likely due to the small sample size, as attested by some extremely
+large confidence intervals).
 
-**Table 3.** Analysis of variance partitioning (ANOVA on a linear additive
-models) of the effects of connectance, nestedness, average specificity,
-and modularity, on strategy diversity, and the excess diversity of strategy
+**Table 3.** Analysis of variance partitioning (ANOVA on linear additive
+models) of the effects of connectance, nestedness, mean specificity, and
+modularity, on strategy diversity, and the excess diversity of strategy
 (deviation of empirical values from simulated networks as asssessed by the
-Null Model analysis).  Preliminary analyses showed no impact of the interaction
-type on these relationships, so this was not included as a covariate.
-
+Null Model analysis). Preliminary analyses showed no impact of the interaction
+type on these relationships, so this factor was not included as a covariate.
 
 \clearpage

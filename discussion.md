@@ -13,8 +13,8 @@ evaluated. By analyzing three bipartite network datasets covering a range of
 both ecological and structural situations, we show how co-occurrence can be
 linked with other topological network properties. This calls for a better
 integration of network methodology to the analysis of community structure,
-so as to evaluate the importance of emerging properties as drivers of the
-maintenance of species with different specificities.
+with the aim of understanding the co-occurrence of species with different
+specificities.
 
 Most emergent network properties could be predicted based on connectance
 alone [@poi14]. This included, notably, components of the degree distribution
@@ -50,18 +50,18 @@ in other types of interactions relying on narrower sets of mechanisms
 relative to connectance in some antagonistic interactions.
 
 In summary, although the ecological nature of an interaction (mutualistic
-or antagonistic) has an impact on network structure, strategy diversity
-that is higher than expected by chance seems to be a conserved property
-in bipartite ecological networks. The particular position occupied by a
-network along a continuum of, *e.g.* connectance or nestedness, can emerge
-because of the life-history traits of species establishing interactions,
-and we suggest that increased attention should be given to understanding
-how fine-scale mechanisms at the individual or population level drive the
-structure of community-level networks. It is nonetheless clear that despite
-theoretical predictions, generalists and specialists are often found together
-in nature. Understanding this gap between predictions and observations will
-be a major challenge, one that should be addressed by understanding the
-mechanisms of coexistence and co-occurrence in large multi-species communities.
+or antagonistic) has an impact on network structure, higher than expected
+strategy diversity appears to be a conserved property in bipartite ecological
+networks. The particular position occupied by a network along a continuum
+of, *e.g.* connectance or nestedness, can emerge because of the life-history
+traits of species establishing interactions, and we suggest that increased
+attention should be given to understanding how fine-scale mechanisms at
+the individual or population level drive the structure of community-level
+networks. It is nonetheless clear that despite theoretical predictions,
+generalists and specialists are often found together in nature. Understanding
+this gap between predictions and observations will be a major challenge
+that should be addressed by investigating the mechanisms of coexistence and
+co-occurrence in large multi-species communities.
 
 **Acknowledgments:** We thank E. Canard, V. Devictor, I. Gounand, S.
 Fellous & N. Mouquet for comments, and the Canadian Research Chair on

@@ -4,21 +4,22 @@ The functional diversity of ecological communities emerges through the
 simultaneous occurrence of species with contrasted resource use [@poi11a],
 habitat selection [@dev10], and interactions [@bas03;@wei12]. Both empirical
 and theoretical studies have shown how different degrees of niche partitioning
-can promote functional diversity [@dia01; @pet02; @ack07]. However, the
-co-occurrence of specialist and generalist species has received considerably
-less attention. The majority of studies seeking to understand the conditions
-for co-occurrence between populations of specialists and generalists in
-both biotic (*e.g.* predator–prey, host–parasite) and abiotic (*e.g.*
-habitat choice) interactions have focused on small communities [@wil94;
-@hoc90; @dem95; @ega04; @abr06; @rav09]. Approaches based on model analysis or
-controlled experiments have two features impeding their generalization to large
-communities. First, the number of interacting organisms is often kept low,
-either to facilitate model analysis or because of experimental constraints. In
-practice, this means that studies investigating the co-occurrence of species
-with contrasted specificities assume no intermediate situations between
-the endpoints of specialism and generalism, whereas natural systems exhibit
-more of a continuum [@for12; @poi13b]. Second, it is unclear to what extent
-results can be scaled up to more realistic communities. Stouffer and colleagues
+can promote functional diversity [@dia01; @pet02; @ack07] and species
+persistence [@bas09c]. However, the co-occurrence of specialist and generalist
+species has received considerably less attention. The majority of studies
+seeking to understand the conditions for co-occurrence between populations
+of specialists and generalists in both biotic (*e.g.* predator–prey,
+host–parasite) and abiotic (*e.g.* habitat choice) interactions have
+focused on small communities [@wil94; @hoc90; @dem95; @ega04; @abr06;
+@rav09]. Approaches based on model analysis or controlled experiments have
+two features impeding their generalization to large communities. First, the
+number of interacting organisms is often kept low, either to facilitate model
+analysis or because of experimental constraints. In practice, this means
+that studies investigating the co-occurrence of species with contrasted
+specificities assume no intermediate situations between the endpoints
+of specialism and generalism, whereas natural systems exhibit more of a
+continuum [@for12; @poi13b]. Second, it is unclear to what extent results
+can be scaled up to more realistic communities. Stouffer and colleagues
 [@sto09] showed that because adding species and interactions increases the
 potential for complex population dynamical feedbacks, complete, realistic
 networks tend to exhibit different behaviors than simple modules (*i.e.*
@@ -26,9 +27,9 @@ those typically used in models or experiments), begging for an analysis of
 co-occurrence in empirical communities.
 
 Network theory offers powerful tools to characterize the complexity of
-ecological communities [@pro05] and the degree of specialisation of the
-species within them [@poi12c]. In a species interaction network, each
-species is a node, and each interaction is an edge, connecting a pair of
+ecological communities [@pro05] and the associated degree of species
+specialisation within them [@poi12c]. In a species interaction network,
+each species is a node, and each interaction is an edge, connecting a pair of
 nodes. From a network perspective, measuring the specificity of a species can
 be performed by counting the number of links it has with other species, or
 to study the distribution of the strengths of such links [@poi12c]. Previous
@@ -42,7 +43,7 @@ in large ecological networks, and reasons for different spectra. As the
 co-occurrence and interactions between specialized and generalized species
 is key to maintaining functional diversity [@dev10], promoting community
 stability [@has86], and ensuring network persistence [@bas03], there is a
-need to investigate the exact extent of this co-occurrence.
+need to investigate the extent and properties of this co-occurrence.
 
 In a previous paper [@poi11a], we argued that the mechanisms shaping the
 evolution of specificity were similar for both antagonistic and mutualistic
@@ -50,11 +51,11 @@ interactions, which implies that relationships between specificity, the co-
 occurrence of specialists and generalists, and other metrics of community
 structure should be similar across different types of ecological interaction,
 despite each category of network having different structural properties. One
-central result of the analyses presented in the present contribution is
-that empirical data show consistently more variation in specificities of all
-species on the upper trophic level (hereafter called “strategy diversity”)
-than predicted by two contrasting null models. This suggests that organisms
-with very different levels of specificity can co-occur in most natural systems.
+central result presented in the present contribution is that empirical data
+show consistently more variation in specificities of all species on the upper
+trophic level (hereafter called “strategy diversity”) than predicted by
+two contrasting null models. This suggests that organisms with very different
+levels of specificity can co-occur in most natural systems.
 
 In this paper, we use a large dataset of species interaction networks spanning
 three contrasted types of ecological interactions (herbivory, parasitism,

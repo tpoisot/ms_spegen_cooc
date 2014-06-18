@@ -26,7 +26,7 @@ parasitism networks.
 Each bipartite network is represented by its adjacency matrix $\mathbf{M}$
 with $T$ rows (for the upper level, *i.e.* ectoparasites, herbivores,
 and pollinators) and $L$ columns (for the lower level, *i.e.* animal hosts
-and plants being eaten or pollinated). In each network, $\mathbf{M}_{ij}$
+and plants being consumed or pollinated). In each network, $\mathbf{M}_{ij}$
 represents the existence of an interaction between species $i$ and species
 $j$ [@dun06]. For each network, we calculate its size ($Z=L\times T$), and
 connectance ($\mathrm{Co}$, the proportion of established interactions). We
