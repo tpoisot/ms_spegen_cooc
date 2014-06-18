@@ -20,7 +20,7 @@
 (10) Santa Fe Institute, 1399 Hyde Park Road Santa Fe, New Mexico 87501 USA   
 (11) Laboratorio Internacional en Cambio Global (LINCGlobal) Facultad de Ciencias Biologicas, Pontificia Universidad Catolica de Chile, Santiago, Chile
 
-**Michael Hochberg** -- `mhochber@um2.fr`   
+**Michael E. Hochberg** -- `mhochber@um2.fr`   
 (4) Institut des Sciences de l'Évolution, UMR CNRS 5554, Université Montpellier 2, Place Eugène Bataillon, CC065, F-34095, Montpellier Cedex 05, France   
 (10) Santa Fe Institute, 1399 Hyde Park Road Santa Fe, New Mexico 87501 USA   
 (12) Wissenschaftskolleg zu Berlin, 14193 Berlin, Germany
