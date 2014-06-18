@@ -277,103 +277,105 @@ of more specialized species than expected by chance. For each empirical
 network, we measure whether its structural properties (strategy diversity,
 nestedness, modularity) are higher or lower than expected by chance using
 the two null models. Our results are reported in Table 1. Both null models
-gave consistent results regarding whether the empirical networks represented a
-deviation from the random expectations. Host-parasite
-networks are on average less modular than expected, herbivory networks are
-more, and there is no clear trend in pollination networks. There is a marked tendency towards
-higher than expected nestedness in all types of interactions. 
+gave consistent results regarding whether the empirical networks represented
+a deviation from the random expectations. Host-parasite networks are on
+average less modular than expected, herbivory networks are more, and there
+is no clear trend in pollination networks. There is a marked tendency towards
+higher than expected nestedness in all types of interactions.
 
 Figure 2 presents the distributions of specificity, connectance, nestedness,
-and modularity in networks that are either more or less functionally
-diverse than expected under the assumptions of null model II (using the outcomes of model I yields the same qualitative results; see Table 1). Regardless of
+and modularity in networks that are either more or less functionally diverse
+than expected under the assumptions of null model II (using the outcomes of
+model I yields the same qualitative results; see Table 1). Regardless of
 the baseline differences between types of network for each of the metrics
 considered, higher diversity responded in a consistent way to variation in
 the other metrics. Networks with higher average specificity tended to have
-lower average strategy diversity, higher connectance, higher nestedness,
-and lower modularity (Table 2). Of all these, there are significant
-interactions between all of the variables and the network having higher strategy diversity than expected by chance,
-with the exception of modularity (Table 3). These four metrics alone account
-for 96% of the variance of strategy diversity, and 63% of the variance in the
-deviation of this same metric. All metrics except modularity had a significant
-impact on the strategy diversity. Interestingly, connectance was the best
-predictor of strategy diversity, whereas nestedness was the best predictor
-of the how much strategy diversity in the empirical networks deviates from
-random expectations. This is because by definition, null model
-testing removes most of the effects of connectance. The type of ecological
-interaction was not significant; detecting possible significance would have
-probably required a larger sample size for non-parasitic networks.
+lower average strategy diversity, higher connectance, higher nestedness, and
+lower modularity (Table 2). Of all these, there are significant interactions
+between all of the variables and the network having higher strategy diversity
+than expected by chance, with the exception of modularity (Table 3). These
+four metrics alone account for 96% of the variance of strategy diversity, and
+63% of the variance in the deviation of this same metric. All metrics except
+modularity had a significant impact on the strategy diversity. Interestingly,
+connectance was the best predictor of strategy diversity, whereas nestedness
+was the best predictor of the how much strategy diversity in the empirical
+networks deviates from random expectations. This is because by definition,
+null model testing removes most of the effects of connectance. The type of
+ecological interaction was not significant; detecting possible significance
+would have probably required a larger sample size for non-parasitic networks.
 
-We finally look at the relationships between network metrics and strategy diversity (Fig. 3). Strategy diversity increases with connectance (it
-is expected to be 0 for a connectance of 1, but no network in our dataset is
-densely connected), decreases with average specificity (as before, strategy diversity is 0 if the average specificity is 0), increases linearly with
+We finally look at the relationships between network metrics and strategy
+diversity (Fig. 3). Strategy diversity increases with connectance (it is
+expected to be 0 for a connectance of 1, but no network in our dataset is
+densely connected), decreases with average specificity (as before, strategy
+diversity is 0 if the average specificity is 0), increases linearly with
 nestedness, and decreases with modularity. An interesting result in this
 analysis is that the trend is the same for all three types of interaction
-considered, with the exception that herbivory and pollination networks tended
-to occupy the "low connectance" end of the gradient; they behave in the same
-way as do parasitism networks, reinforcing the idea that structural constraints
-such as that introduced by connectance may be driving emergent network properties.
+considered, with the exception that herbivory and pollination networks
+tended to occupy the "low connectance" end of the gradient; they behave in
+the same way as do parasitism networks, reinforcing the idea that structural
+constraints such as that introduced by connectance may be driving emergent
+network properties.
 
 # Discussion
 
 Several mechanisms have been proposed to explain the co-occurrence of
-potentially competing species, including behavior [@abrams_prerequisites_2006],
-spatial or temporal heterogeneity [@wilson_coexistence_1994], and
-trade-offs associated with species interactions [@mcpeek_trade-offs_1996;
-@egas_evolution_2004; @poisot_conceptual_2011]. Ecological factors such as
-environmental and spatial heterogeneity and evolutionary processes such as
-niche partitioning may permit the coexistence between competing species with
-similar and/or different number of resources [@bascompte_asymmetric_2006;
-@poullain_evolution_2008]. However, most of these results were obtained
-in systems of low complexity, and the extent to which specialists and
-generalists co-occur in natural communities remains to be evaluated. By
-analyzing three bipartite network datasets covering a range of both
-ecological and structural situations, we show how co-occurrence can be
+potentially competing species, including behavior [@abr06], spatial or temporal
+heterogeneity [@wil94], and trade-offs associated with species interactions
+[@mcp96; @ega04; @poi11a]. Ecological factors such as environmental and
+spatial heterogeneity and evolutionary processes such as niche partitioning
+may permit the coexistence between competing species with similar and/or
+different number of resources [@bas06; @pou08a]. However, most of these
+results were obtained in systems of low complexity, and the extent to which
+specialists and generalists co-occur in natural communities remains to be
+evaluated. By analyzing three bipartite network datasets covering a range of
+both ecological and structural situations, we show how co-occurrence can be
 linked with other topological network properties. This calls for a better
 integration of network methodology to the analysis of community structure,
 so as to evaluate the importance of emerging properties as drivers of the
 maintenance of species with different specificities.
 
-@poisot_when_2013 showed that most emergent network properties could be
-predicted based on connectance. This included, notably, components of the
-degree distribution involved in determining nestedness. The results presented
-here suggest that although the relationship between connectance, emergent
-metrics (such as nestedness and modularity), and strategy diversity
-is conserved across types of ecological interactions (the strength of this
-assertion being tempered by the low sample size for herbivory and mutualism
-networks), the differences between interaction types stemmed mostly from
-networks having different connectances. Specifically, host-parasite
-networks were more connected than the other types, but all three types of
-interaction had an equal proportion (approximately two-thirds) of networks
-with more strategy diversity than expected by chance. Overall, we report
-that networks with higher nestedness and lower modularity, also had more
-strategy diversity than expected under the assumptions of the two null
-models. This observation offers promising new research perspectives. If
-the main difference between interaction types is their connectance,
-then the different mechanisms involved must be studied
+Most emergent network properties could be predicted based on connectance
+alone [@poi14]. This included, notably, components of the degree distribution
+involved in determining nestedness. The results presented here suggest that
+although the relationship between connectance, emergent metrics (such as
+nestedness and modularity), and strategy diversity is conserved across types
+of ecological interactions (the strength of this assertion being tempered by
+the low sample size for herbivory and mutualism networks), the differences
+between interaction types stemmed mostly from networks having different
+connectances. Specifically, host-parasite networks were more connected than
+the other types, but all three types of interaction had an equal proportion
+(approximately two-thirds) of networks with more strategy diversity than
+expected by chance. Overall, we report that networks with higher nestedness
+and lower modularity, also had more strategy diversity than expected under
+the assumptions of the two null models. This observation offers promising new
+research perspectives. If the main difference between interaction types is
+their connectance, then the different mechanisms involved must be studied
 alongside their impacts on network structure. Species specialization is
-regulated by differences in life-history traits [@poisot_conceptual_2011],
-competition for access to resources [@bascompte_asymmetric_2006;
-@bascompte_plant-animal_2007], or phylogenetic conservatism in attack/defense
-strategies [@cavender-bares_merging_2009]. Through their impact on species
-range of resources used, these factors are likely to be involved in driving
-network structure, and connectance in particular. For example, in herbivorous
-systems, plants may employ multiple defenses against enemies, including the
-release of toxic compounds [@Arimura2005] and/or attraction of a herbivore’s
-natural enemies [@Ode2006; @Wei2007; @Van-Nouhuys2003; @Singer2012]. The
-simultaneous existence of different levels of defense such as those mentionned above may promote lower connectance. It can also result in the faster diversification
-of exploitation strategies at the upper level (in the sense that enemies
-specialize on a *defense mechanism* rather than on the set of defended species) than in other types of interactions relying on narrower sets
-of mechanisms [@Forister2012]. This may result in the maintenance of high
-strategy diversity relative to connectance in some antagonistic interactions.
+regulated by differences in life-history traits [@poi11a], competition
+for access to resources [@bas06; @bas07a], or phylogenetic conservatism in
+attack/defense strategies [@cav09]. Through their impact on species range of
+resources used, these factors are likely to be involved in driving network
+structure, and connectance in particular. For example, in herbivorous systems,
+plants may employ multiple defenses against enemies, including the release
+of toxic compounds [@ari05] and/or attraction of a herbivore’s natural
+enemies [@ode06; @wei07; @van03; @sin12c]. The simultaneous existence of
+different levels of defense such as those mentionned above may promote lower
+connectance. It can also result in the faster diversification of exploitation
+strategies at the upper level (in the sense that enemies specialize on
+a *defense mechanism* rather than on the set of defended species) than
+in other types of interactions relying on narrower sets of mechanisms
+[@for12]. This may result in the maintenance of high strategy diversity
+relative to connectance in some antagonistic interactions.
 
 In summary, although the ecological nature of an interaction (mutualistic
 or antagonistic) has an impact on network structure, strategy diversity
 that is higher than expected by chance seems to be a conserved property
 in bipartite ecological networks. The particular position occupied by a
 network along a continuum of, *e.g.* connectance or nestedness, can emerge
-because of the life-history traits of species establishing interactions {{ref}},
+because of the life-history traits of species establishing interactions,
 and we suggest that increased attention should be given to understanding
-how fine- scale mechanisms at the individual or population level drive the
+how fine-scale mechanisms at the individual or population level drive the
 structure of community-level networks. It is nonetheless clear that despite
 theoretical predictions, generalists and specialists are often found together
 in nature. Understanding this gap between predictions and observations will
@@ -420,21 +422,21 @@ for each null model, we indicate the proportion of networks that had
 significantly larger or smaller values of this metric than expected by chance.
 A network has a significantly different value from the prediction when the
 empirical value falls outside of the 95% confidence interval for the value as
-mesured on the randomized networks [see *e.g.* @flores_statistical_2011].
+mesured on the randomized networks [@flo11a].
 
 **Table 2.** Analysis of the results presented in Fig. 2. We used a two-sampled
-t-test to determine differences from chance expectations for metric networks with either, less, as much,
-or more strategy diversity. We observe
-that all metrics are different for parasitism networks, but not for other
-interaction types (although our failure to report an effect is most
-likely due to the small sample size, as attested by some extremely large
-confidence intervals).
+t-test to determine differences from chance expectations for metric networks
+with either, less, as much, or more strategy diversity. We observe that all
+metrics are different for parasitism networks, but not for other interaction
+types (although our failure to report an effect is most likely due to the
+small sample size, as attested by some extremely large confidence intervals).
 
 **Table 3.** Analysis of variance partitioning (ANOVA on a linear additive
 models) of the effects of connectance, nestedness, average specificity,
-and modularity, on strategy diversity, and the excess diversity of
-strategy (deviation of empirical values from simulated networks as asssessed by the Null Model analysis).
-Preliminary analyses showed no impact of the interaction type on these
-relationships, so this was not included as a covariate.
+and modularity, on strategy diversity, and the excess diversity of strategy
+(deviation of empirical values from simulated networks as asssessed by the
+Null Model analysis).  Preliminary analyses showed no impact of the interaction
+type on these relationships, so this was not included as a covariate.
 
 
+\clearpage

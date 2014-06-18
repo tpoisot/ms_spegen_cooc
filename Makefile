@@ -17,3 +17,4 @@ ms.md: abstract.md discussion.md intro.md methods.md results.md tables.md title.
 	cat discussion.md >> ms.md
 	cat figures.md >> ms.md
 	cat tables.md >> ms.md
+	echo "\clearpage" >> ms.md
