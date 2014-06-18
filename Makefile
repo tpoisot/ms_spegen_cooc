@@ -1,5 +1,6 @@
+HOME=/home/tp
 PDF=spegen_cooc.pdf
-PANOPT= --smart --template=paper.latex.template
+PANOPT= --smart --template=paper.latex.template --csl=$(HOME)/vrac/styles/plos.csl --bibliography=$(HOME)/.pandoc/default.json
 
 all: $(PDF)
 
