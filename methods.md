@@ -1,3 +1,4 @@
+
 # Methods
 
 ## Datasets
@@ -24,40 +25,43 @@ parasitism networks.
 ## Network analyses
 
 Each bipartite network is represented by its adjacency matrix $\mathbf{M}$
-with $T$ rows (for the upper level, *i.e.* ectoparasites, herbivores,
-and pollinators) and $L$ columns (for the lower level, *i.e.* animal hosts
-and plants being consumed or pollinated). In each network, $\mathbf{M}_{ij}$
+with $T$ rows (for the upper level, *i.e.* ectoparasites, herbivores, and
+pollinators) and $L$ columns (for the lower level, *i.e.* animal hosts and
+plants being consumed or pollinated). In each network, $\mathbf{M}_{ij}$
 represents the existence of an interaction between species $i$ and species
-$j$ [@dun06]. For each network, we calculate its size ($Z=L\times T$), and
+$j$ [@dunn06]. For each network, we calculate its size ($Z=L\times T$), and
 connectance ($\mathrm{Co}$, the proportion of established interactions). We
 focus our analyses on the upper level, since we have more knowledge of
-specialization mechanisms for these organisms [@fut88]. Nestedness is
-calculated using the NODF (Nestedness based on Overlap and Decreasing Fill)
-measure [@alm08] , which is insensitive to network shape (asymmetry in the
-number of species at each of the two trophic levels) and size. Modularity is
-estimated using the LP-BRIM method [@liu10a], which both increases modularity
-detection compared to the adaptive BRIM method, and is less computationally
-intensive [@bar09]. For each network, we retained the highest modularity
-$Q_{bip}$ [@bar07] observed in a total of 1000 replicate runs.
+specialization mechanisms for these organisms [@futu88]. Nestedness, a
+measure that reflects whether specialist species interact with the same
+species as generalists, is calculated using the NODF (Nestedness based
+on Overlap and Decreasing Fill) measure [@alme08]. NODF is insensitive to
+network asymetry (the relative number of species at each of the two levels)
+and size. Modularity measures the extent to which species form well defined,
+densely connected, groups, with few connections between groups. It is estimated
+using the LP-BRIM method [@liu10], which both increases modularity detection
+compared to the adaptive BRIM method, and is less computationally intensive
+[@barb09]. For each network, we retained the highest modularity $Q_{bip}$
+[@barb07] observed in a total of 1000 replicate runs.
 
 We contrast empirical observations with the predictions of two different
 null models, each based on the impact of different aspects of network
-structure (connectance, and degree distribution in the whole network). For
-each null model, we filled a network through a Bernoulli process, in
-which the probability of each pairwise species interaction occurring
-($\mathrm{P}\sb{ij}$) is determined in one of the following ways. Null model
-I [@for06] is connectance based and assigns the same probability to each
-interaction, $\mathrm{P}\sb{ij} = Co$. Compared to the empirical network
-on which they are based, simulated networks can have the same connectance,
-but a potentially different degree distribution. Null model II [@bas03]
-uses information about species degree to calculate the probability that a
-particular interaction will occur. This probability is $\mathrm{P}\sb{ij} =
-(T\times G\sb{i}+L\times V\sb{j})/(2\times Z)$, where $G\sb{i}$ and $V\sb{j}$
-are, respectively, the generality (number of interactions) of upper level
-species $i$, and the vulnerability (number of interactions) of lower level
-species $j$ [@sch89]. Simply put, the probability of the interaction occurring
-is the mean of the degrees (ranged in 0--1) of the two species involved. Note
-that the first null model is nested into the second.
+structure. For each null model, we filled a network through a Bernoulli
+process, in which the probability of each pairwise species interaction
+occurring ($\mathrm{P}\sb{ij}$) is determined in one of the following
+ways. Null model I [@for06] is connectance based and assigns the same
+probability to each interaction, $\mathrm{P}\sb{ij} = Co$. Compared to the
+empirical network on which they are based, simulated networks can have the same
+connectance, but a potentially different degree distribution. Null model II
+[@bas03] uses information about species degree (the number of interactions
+established/received) to calculate the probability that a particular
+interaction will occur. This probability is $\mathrm{P}\sb{ij} = (T\times
+G\sb{i}+L\times V\sb{j})/(2\times Z)$, where $G\sb{i}$ and $V\sb{j}$ are,
+respectively, the generality (number of interactions) of upper level species
+$i$, and the vulnerability (number of interactions) of lower level species $j$
+[@scho89]. Simply put, the probability of the interaction occurring is the
+mean of the degrees (ranged in 0--1) of the two species involved. Note that
+the first null model is nested into the second.
 
 Each of these models was applied to each network in the dataset, so as to
 generate 1000 random networks (meaning that each empirical network was fed
@@ -81,10 +85,10 @@ and values of 0 indicate complete generalism (all possible partners).
 
 ## Quantifying strategy diversity
 
-We quantify two aspects of the co-occurrence of specialists and
-generalists (*i.e.* “strategy diversity”). First, “specificity range”
-or $R$, is simply the difference between the specificity of the most and
-least specialized organisms, such that
+We quantify two aspects of the co-occurrence of specialists and generalists
+(*i.e.* “strategy diversity”). First, “specificity range” or $R$,
+is simply the difference between the specificity of the most and least
+specialized organisms, such that
 
 $R = \mathrm{max}(\mathbf{s})-\mathrm{min}(\mathbf{s})$
 
@@ -107,7 +111,7 @@ $H = \sum_{u\in U}\left[p(u)I(u)\right]$
 
 If $U$ takes on $N$ possible values, then the theoretical maximum of $H$
 (attained when all values of $\mathbf{s}'$ are unique, *i.e.* no two species
-share the same degree of specificity) is
+are equally specialised) is
 
 $H_{\mathrm{max}}= \mathrm{ln}(N)$
 
@@ -117,15 +121,15 @@ standardized value of $E$ is
 
 $E = e^{H-H_{\mathrm{max}}}$
 
-$E = 1$ when no two organisms have the same level of specificity, and $E =
-0$ when all values of $\mathbf{s}'$ are equal. Note that rounding to the
-second decimal place allows accounting for the fact that some organisms may
-have very similar (but not exactly equal) specificities. Small differences in
-the values of specificity are less important than the potential amplitude of
-measurement error, as preliminary tests indicated that the degree to which
-values of $\mathbf{s}'$ are rounded does not qualitatively change observed
-relationships. It is also known that small differences in link strength have
-little to no impact in larger networks [@ber04].
+It follows that $E = 1$ when no two organisms have the same level of
+specificity, and $E = 0$ when all values of $\mathbf{s}'$ are equal. Note
+that rounding to the second decimal place allows accounting for the
+fact that some organisms may have very similar (but not exactly equal)
+specificities. Small differences in the values of specificity are less
+important than the potential amplitude of measurement error, as preliminary
+tests indicated that the rounding of $\mathbf{s}'$ does not qualitatively
+change observed relationships. It is also known that small differences in
+link strength have little to no impact in larger networks [@ber04].
 
 Finally, we present a simple summary statistic that we call “strategy
 diversity” ($D$),

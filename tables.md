@@ -1,3 +1,4 @@
+
 # Tables
 
 **Table 1.** Results of the null models analyses. For each network metric,
@@ -5,7 +6,8 @@ and for each null model, we indicate the proportion of networks that had
 significantly larger or smaller values than expected by chance.  A network
 has a significantly different value from the prediction when the empirical
 value falls outside of the 95% confidence interval for the value as mesured
-on randomized networks [@flo11a].
+on randomized networks [@flor11a]. NS: no significant difference in the
+diversity of strategies.
 
 **Table 2.** Analysis of the results presented in Fig. 2. We used a two-sampled
 t-test to determine differences from chance expectations for metric networks
