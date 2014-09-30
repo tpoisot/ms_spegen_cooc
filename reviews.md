@@ -60,3 +60,7 @@ the changes made in response to point 2 above.
 8. Table 2. Is this really the clearest way to report your results? i.e
 reporting t-values and 95% CIs but no mean difference? The legend is not
 stand alone. What are D & S?
+
+> We have modified the legend of the figure. We believe that mean differences
+should not be in the table, as they are constrained by the absolute values
+of the metrics, which differ for each type of interaction.
