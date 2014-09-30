@@ -1,16 +1,16 @@
 
 # Results
 
-All types of network tend to have more strategy diversity and to be composed
-of more specialized species than expected by chance (Table 1). For each
-empirical network, we measure whether its structural properties (strategy
-diversity, nestedness, modularity) are higher or lower than expected by
-chance using the two null models. Our results are reported in Table 1. Both
-null models gave consistent results regarding whether the empirical networks
-represented a deviation from the random expectations. Host-parasite networks
-are on average less modular than expected, herbivory networks are more, and
-there is no clear trend in pollination networks. There is a marked tendency
-towards higher than expected nestedness in all types of interactions.
+All types of network tend to have more strategy diversity and to be composed of
+more specialized species than expected by chance (Table 1). For each empirical
+network, we measure whether its structural properties (strategy diversity,
+nestedness, modularity) are higher or lower than expected by chance using
+the two null models. Our results are reported in Table 1. Both null models
+gave consistent results regarding whether the empirical networks represented
+a deviation from random expectations. Host-parasite networks are on average
+less modular than expected, herbivory networks are more, and there is no
+clear trend in pollination networks. There is a marked tendency towards
+higher than expected nestedness in all types of interactions.
 
 Figure 2 presents the distributions of specificity, connectance, nestedness,
 and modularity in networks that are either more or less functionally diverse
@@ -43,5 +43,6 @@ that the trend is the same for all three types of interaction considered,
 with the exception that herbivory and pollination networks tended to occupy
 the "low connectance" end of the gradient; they behave in the same way as do
 parasitism networks, reinforcing the idea that structural constraints such
-as that introduced by connectance may be driving emergent network properties.
+as that introduced by connectance may be driving emergent network properties
+[@will11a;@pois14a].
 

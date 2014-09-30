@@ -7,15 +7,15 @@ temporal heterogeneity [@wils94], and trade-offs associated with species
 interactions [@mcpe96; @egas04; @pois11c]. Ecological factors such as
 environmental and spatial heterogeneity and evolutionary processes such as
 niche partitioning may permit the coexistence between competing species with
-similar and/or different number of resources [@bas06; @pou08a]. However, most
-of these results were obtained in systems of low complexity, and the extent to
-which specialists and generalists co-occur in natural communities remains to
-be evaluated. By analyzing three bipartite network datasets covering a range
-of both ecological and structural situations, we show how co-occurrence can
-be linked with other topological network properties. This calls for a better
-integration of network methodology to the analysis of community structure,
-with the aim of understanding the co-occurrence of species with different
-specificities.
+similar and/or different number of resources [@basc06; @poul08]. However,
+most of these results were obtained in systems of low complexity, and the
+extent to which specialists and generalists co-occur in natural communities
+remains to be evaluated. By analyzing three bipartite network datasets
+covering a range of both ecological and structural situations, we show how
+co-occurrence can be linked with other topological network properties. This
+calls for a better integration of network methodology to the analysis of
+community structure, with the aim of understanding the co-occurrence of
+species with different specificities.
 
 Most emergent network properties could be predicted based on connectance alone
 [@pois14a]. This included, notably, components of the degree distribution
@@ -26,29 +26,31 @@ is conserved across types of ecological interactions can be explained in
 part by these physical constraints. The fact that some interactions appear
 more or less specialised reflects average differences in connectance in
 these communities. Null models analysis nonetheless reveals that, for all
-types of interactions, approximately two-thirds of all networks had *more*
-strategy diversity than expected by chance; this suggest that despite
-physical constraints, a suite of ecological or evolutionary mechanisms are
-involved in favoring high divesity [@bast09;@haer14]. Overall, we report that
-networks with higher nestedness and lower modularity, also had more strategy
-diversity than expected under the assumptions of the two null models. If
-the main difference between interaction types is their connectance, then
-the different mechanisms involved must be studied alongside their impacts
-on network structure. Species specialization is regulated by differences
-in life-history traits [@pois11c], competition for access to resources
-[@basc06; @basc07a], or phylogenetic conservatism in attack/defense strategies
-[@cave09]. Through their impact on species range of resources used, these
-factors are likely to be involved in driving network structure, and connectance
-in particular. For example, in herbivorous systems, plants may employ multiple
-defenses against enemies, including the release of toxic compounds [@arim05]
-and/or attraction of a herbivore’s natural enemies [@ode06; @wei07; @van03;
-@sing12]. The simultaneous existence of different levels of defense such as
-those mentionned above may promote lower connectance. It can also result in the
-faster diversification of exploitation strategies at the upper level (in the
-sense that enemies specialize on a *defense mechanism* rather than on the set
-of defended species) than in other types of interactions relying on narrower
-sets of mechanisms [@for12]. This may result in the maintenance of high
-strategy diversity relative to connectance in some antagonistic interactions.
+types of interaction, approximately two-thirds of all networks had *more*
+strategy diversity than expected by chance; this suggests that despite
+physical constraints, ecological and/or evolutionary mechanisms are involved
+in promoting high diversity [@bast09;@haer14].
+
+Overall, we report that networks with higher nestedness and lower modularity,
+also had more strategy diversity than expected under the assumptions of
+the two null models. If the main difference between interaction types is
+their connectance, then the different mechanisms involved must be studied
+alongside their impacts on network structure. Species specialization is
+regulated by differences in life-history traits [@pois11c], competition for
+access to resources [@basc06; @basc07a], or phylogenetic conservatism in
+attack/defense strategies [@cave09]. Through their impact on species range
+of resources used, these factors are likely to be involved in driving network
+structure, and connectance in particular. For example, in herbivorous systems,
+plants may employ multiple defenses against enemies, including the release
+of toxic compounds [@arim05] and/or attraction of a herbivore’s natural
+enemies [@ode06; @wei07; @van03; @sing12]. The simultaneous existence of
+different levels of defense such as those mentioned above may promote lower
+connectance. It can also result in the faster diversification of exploitation
+strategies at the upper level (in the sense that enemies specialize on a
+*defense mechanism* rather than on the set of defended species) than in other
+types of interaction rely on narrower sets of mechanisms [@fori12]. This may
+result in the maintenance of high strategy diversity relative to connectance
+in some antagonistic interactions.
 
 In summary, although the ecological nature of an interaction (mutualistic
 or antagonistic) has an impact on network structure, higher than expected

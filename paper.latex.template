@@ -8,7 +8,8 @@
 \geometry{verbose,letterpaper,margin=2cm}
 
 \usepackage[full]{textcomp}
-\usepackage{kpfonts}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
 \usepackage[utf8]{inputenc}
 \usepackage{lineno}
 					 

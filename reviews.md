@@ -23,12 +23,12 @@ phenomena?
 
 > We rewrote part of the discussion to make this point stand out more. In
 short, even though there are numerical relationships between all of these
-values (which we acknoweldge in the manuscript), the fact that null model
+values (which we acknowledge in the manuscript), the fact that null model
 analysis suggests a systematic deviation towards more diversity suggests
 the action of ecological mechanisms favoring functional diversity. This
 is in line with recent observations in empirical systems. However, because
-making this point require to build both on our results and other studies,
-we are keeping this part in the discussion and not in the results.
+making this point requires discussion relating to other studies, we placed
+this text in the discussion and not in the results.
 
 3. The aims of the study are not clearly outlined and articulated
 
@@ -37,17 +37,17 @@ goals of the study. See notably **PP/LL**, and **PP/LL**.
 
 4. The discussion is a bit of a mess. In addition to speclling and grammatical
 errors, the arguments developed are not particularly cogent (at least to
-me – again here I was overwhelmed by the network jargon) and links to
-biology are not very clear. Links to the aims of the study are not clear
+me ‚Äì again here I was overwhelmed by the network jargon) and links
+to biology are not very clear. Links to the aims of the study are not clear
 but as stated above the aims of the study are not clear either.
 
-> We expect that (i) the better definition of network terminology and (ii)
-the changes made to the discussion in response to point 2 above will adress
-this comment.
+> We have revised the discussion to improve its flow. Many of the improvements
+resulted from (i) the better definition of network terminology and (ii)
+the changes made in response to point 2 above.
 
-5. Figure 2: legend is not stand-alone; x-axis labels – what are these?
+5. Figure 2: legend is not stand-alone; x-axis labels ‚Äì what are these?
 
-> We have fixed the figure legend.
+> We have revised the figure legend.
 
 6. Figure 3: legend is not stand-alone. What are empty triangles?
 
