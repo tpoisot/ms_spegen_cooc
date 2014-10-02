@@ -47,26 +47,26 @@ species is key to maintaining functional diversity [@devi10a], promoting
 community stability [@hass86], and ensuring network persistence [@basc03],
 there is a need to investigate the extent and properties of this co-occurrence.
 
-In a previous paper [@pois11c], we argued that the specialisation
-of different types of interactions is likely to be shaped by the same
-set of core mechanisms, expressed in a different ways or with different
-intensities. At the community level, this leads to the expectation that
-relationships between specificity, the co-occurrence of specialists and
-generalists, and other metrics of community structure should be similar
-across different types of ecological interactions, although different types
-of networks, dominated by positive or negative interactions, can be situated
-along different parts of this gradient [@theb10]. In this study, we use a
-dataset of interaction networks spanning three contrasted types of ecological
-interactions (herbivory, parasitism, and mutualism), to characterize the
-extent to which species with different specificities can co-occur within
-the same community. In line with our expectation and past empirical data, we
-find a continuum from networks of mostly-specialized to mostly-generalized
-species, with the potential for specialist/generalist co-occurrence being
-greater at intermediate connectance. One central result is that empirical
-data show consistently more variation in specificities of all species on the
-upper network level (parasites, herbivores, pollinators; hereafter called
-“strategy diversity”) than predicted by two contrasting null models. This
-suggests (i) that organisms with very different levels of specificity can
-co-occur in most natural systems, and (ii) that ecological or evolutionary
-mechanisms are acting to maintain high diversity in the range of specificities.
+In a previous paper [@pois11c], we argued that the specialisation of
+different types of interactions is likely to be shaped by the same set of core
+mechanisms, expressed in a different ways or with different intensities. At
+the community level, this leads to the expectation that the same relationships
+between specificity, the co-occurrence of specialists and generalists, and
+other metrics of community structure would occure for different types of
+ecological interactions, despite different types of networks, dominated by
+positive or negative interactions, occupying different parts of this gradient
+[@theb10]. In this study, we use a dataset of interaction networks spanning
+three contrasted types of ecological interactions (herbivory, parasitism,
+and mutualism), to characterize the extent to which species with different
+specificities can co-occur within the same community. In line with our
+expectation and past empirical data, we find a continuum from networks
+of mostly-specialized to mostly-generalized species, with the potential
+for specialist/generalist co-occurrence being greater at intermediate
+connectance. One central result is that empirical data show consistently
+more variation in specificities of all species on the upper network
+level (parasites, herbivores, pollinators; hereafter called “strategy
+diversity”) than predicted by two contrasting null models. This suggests
+(i) that organisms with very different levels of specificity can co-occur
+in most natural systems, and (ii) that ecological or evolutionary mechanisms
+are acting to maintain high diversity in the range of specificities.
 

@@ -100,28 +100,28 @@ species is key to maintaining functional diversity [@devi10a], promoting
 community stability [@hass86], and ensuring network persistence [@basc03],
 there is a need to investigate the extent and properties of this co-occurrence.
 
-In a previous paper [@pois11c], we argued that the specialisation
-of different types of interactions is likely to be shaped by the same
-set of core mechanisms, expressed in a different ways or with different
-intensities. At the community level, this leads to the expectation that
-relationships between specificity, the co-occurrence of specialists and
-generalists, and other metrics of community structure should be similar
-across different types of ecological interactions, although different types
-of networks, dominated by positive or negative interactions, can be situated
-along different parts of this gradient [@theb10]. In this study, we use a
-dataset of interaction networks spanning three contrasted types of ecological
-interactions (herbivory, parasitism, and mutualism), to characterize the
-extent to which species with different specificities can co-occur within
-the same community. In line with our expectation and past empirical data, we
-find a continuum from networks of mostly-specialized to mostly-generalized
-species, with the potential for specialist/generalist co-occurrence being
-greater at intermediate connectance. One central result is that empirical
-data show consistently more variation in specificities of all species on the
-upper network level (parasites, herbivores, pollinators; hereafter called
-“strategy diversity”) than predicted by two contrasting null models. This
-suggests (i) that organisms with very different levels of specificity can
-co-occur in most natural systems, and (ii) that ecological or evolutionary
-mechanisms are acting to maintain high diversity in the range of specificities.
+In a previous paper [@pois11c], we argued that the specialisation of
+different types of interactions is likely to be shaped by the same set of core
+mechanisms, expressed in a different ways or with different intensities. At
+the community level, this leads to the expectation that the same relationships
+between specificity, the co-occurrence of specialists and generalists, and
+other metrics of community structure would occure for different types of
+ecological interactions, despite different types of networks, dominated by
+positive or negative interactions, occupying different parts of this gradient
+[@theb10]. In this study, we use a dataset of interaction networks spanning
+three contrasted types of ecological interactions (herbivory, parasitism,
+and mutualism), to characterize the extent to which species with different
+specificities can co-occur within the same community. In line with our
+expectation and past empirical data, we find a continuum from networks
+of mostly-specialized to mostly-generalized species, with the potential
+for specialist/generalist co-occurrence being greater at intermediate
+connectance. One central result is that empirical data show consistently
+more variation in specificities of all species on the upper network
+level (parasites, herbivores, pollinators; hereafter called “strategy
+diversity”) than predicted by two contrasting null models. This suggests
+(i) that organisms with very different levels of specificity can co-occur
+in most natural systems, and (ii) that ecological or evolutionary mechanisms
+are acting to maintain high diversity in the range of specificities.
 
 \clearpage
 
@@ -132,7 +132,7 @@ mechanisms are acting to maintain high diversity in the range of specificities.
 We employ three datasets: two for antagonistic (ectoparasite--animal
 host and insect herbivore--plant) interactions, and one for mutualistic
 (pollinator--plant) interactions. Parasitism networks were from
-Stanko and colleagues [@stan02;@stanXX] and consist of 121 networks of
+Stanko and colleagues [@stan02;@stan14] and consist of 121 networks of
 ectoparasites infecting rodents in Central Europe, collected in a range
 of continental ecosystems over a period of 19 years. Herbivory networks
 (a total of 23) were collected by Thébault and Fontaine [@theb10] from
@@ -410,26 +410,25 @@ three null models are available at <http://github.com/tpoisot/bipy> and
 
 # Figures
 
-**Figure 1.** Cartoon depiction of the expected relationships between
-connectance and other metrics.
+**Figure 1.** Expected relationships between connectance and other metrics.
 
 **Figure 2.** Values of average specificity, nestedness, connectance,
 and modularity for networks with more (orange) or less (purple) strategy
 diversity than expected by chance. The results within a type of interaction
-are all highly consistent. For this analysis *only*, networks that were
-as functionally diverse as expected (as determined by the Null Models)
-were removed, since their diversity of strategies can be explained solely
-by either their connectance or degree distribution. Types of interactions
-are given in the x axis, with networks separated as a function of whether
-they have more (orange) or less (purple) strategy diversity than expected
-by chance (under the assumptions of the second, more restrictive null model).
+are all highly consistent. For this analysis *only*, networks that were as
+functionally diverse as expected (as determined by the Null Models) were
+removed, since their strategy diversity can be explained solely by either
+their connectance or degree distribution. Types of interaction are given
+on the x axis, with networks separated as a function of whether they have
+more (orange) or less (purple) strategy diversity than expected by chance
+(under the assumptions of the second, more restrictive null model).
 
 **Figure 3.** Scatterplot of strategy diversity versus other network
-metrics. Regardless of the interaction type, diversity of strategies responds
+metrics. Regardless of the interaction type, strategy diversity responds
 in a similar way to other network metrics. Points are colored as in Figure
-2. Triangles are host-parasite systems, squares are plants-herbivores,
-and circles are plants-pollinators. Empty triangles are the host-parasite
-networks that have as many strategy diversity as expected.
+2. Triangles are host-parasite systems, squares are plants-herbivores, and
+circles are plants-pollinators. Empty triangles are host-parasite networks
+that have as many strategy diversity as expected.
 
 \clearpage
 
@@ -439,24 +438,23 @@ networks that have as many strategy diversity as expected.
 and for each null model, we indicate the proportion of networks that had
 significantly larger or smaller values than expected by chance.  A network
 has a significantly different value from the prediction when the empirical
-value falls outside of the 95% confidence interval for the value as mesured on
-randomized networks [@flor11a]. NS: no significant difference in the diversity
-of strategies. $D$ is the strategy diversity, $S$ is the average specificity.
+value falls outside of the 95% confidence interval for the value as mesured
+on randomized networks [@flor11a]. NS: no significant difference in stategy
+diversity. $D$: strategy diversity. $S$: average specificity.
 
-**Table 2.** Analysis of the results presented in Fig. 2. We used a two-samples
+**Table 2.** Analysis of the results presented in Fig. 2. We used a two-sample
 t-test to determine differences from chance expectations for networks with
-either less, equal, or more strategy diversity. We observe that all metrics
-are different from chance expectatons for parasitism networks, but not for
-other interaction types (although our failure to report an effect is most
-likely due to the small sample size, as attested by some extremely large
-confidence intervals).
+either less, equal, or more strategy diversity. We observe that all metrics are
+different from chance expectatons for parasitism networks, but not for other
+interaction types (although our failure to report an effect is most likely due
+to the small sample size, as indicated by certain large confidence intervals).
 
 **Table 3.** Analysis of variance partitioning (ANOVA on linear additive
 models) of the effects of connectance, nestedness, mean specificity, and
-modularity, on strategy diversity, and the excess diversity of strategy
-(deviation of empirical values from simulated networks as asssessed by the Null
-Model analysis). Preliminary analyses showed no impact of the interaction type
-on these relationships, so this factor was not included as a covariate. $D$
-is the strategy diversity.
+modularity, on strategy diversity, and the excess strategy diversity (deviation
+of empirical values from simulated networks as asssessed by the Null Model
+analysis). Preliminary analyses showed no impact of the interaction type on
+these relationships, so this factor was not included as a covariate. $D$:
+strategy diversity.
 
 \clearpage

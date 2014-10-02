@@ -6,7 +6,7 @@
 We employ three datasets: two for antagonistic (ectoparasite--animal
 host and insect herbivore--plant) interactions, and one for mutualistic
 (pollinator--plant) interactions. Parasitism networks were from
-Stanko and colleagues [@stan02;@stanXX] and consist of 121 networks of
+Stanko and colleagues [@stan02;@stan14] and consist of 121 networks of
 ectoparasites infecting rodents in Central Europe, collected in a range
 of continental ecosystems over a period of 19 years. Herbivory networks
 (a total of 23) were collected by Thébault and Fontaine [@theb10] from

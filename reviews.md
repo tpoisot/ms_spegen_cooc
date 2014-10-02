@@ -33,7 +33,7 @@ this text in the discussion and not in the results.
 3. The aims of the study are not clearly outlined and articulated
 
 > We have made extensive edits on the introduction to better reflect the
-goals of the study. See notably **PP/LL**, and **PP/LL**.
+goals of the study.
 
 4. The discussion is a bit of a mess. In addition to speclling and grammatical
 errors, the arguments developed are not particularly cogent (at least to
